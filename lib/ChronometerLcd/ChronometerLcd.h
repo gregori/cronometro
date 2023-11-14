@@ -1,3 +1,6 @@
+#ifndef CHRONOMETER_LCD_H
+#define CHRONOMETER_LCD_H
+
 #include <LiquidCrystal_I2C.h>
 
 class ChronometerLcd
@@ -12,3 +15,5 @@ public:
     void printTime(int minutes, int seconds, int centiseconds);
     void printHello();
 };
+
+#endif // CHRONOMETER_LCD_H
